@@ -212,4 +212,41 @@ footer {
 }
 
 
+@media only screen and (max-width: 900px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        position: relative;
+      
+    }
+
+    header .search {
+        border: 2px solid var(--primary-color);
+        padding: 10px 100px 15px 10px;
+        background-color: #eeeeee;
+        border-radius: 10px;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0; 
+        margin-left: 0;
+        
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .social {
+        margin: 25px 0 25px 0;
+    }
+}
+
+
 
